@@ -1,4 +1,4 @@
-package davidci;
+package com.huaxia.davidci;
 
 public class HelloWorld {
 
