@@ -1,6 +1,10 @@
 # VSCode Tricks
 
 [](myIcons.md)
+
+## Turn in homework
+click Source Control > enter message > click the check mark > ... > pull > push
+
 ## Syntax Error due to run python code in playground
 trash the terminal > run program again
 ❗️never use your running terminal for playground.
