@@ -12,6 +12,27 @@ javac -version
 * install Eclipse
 * install VS Code
   
+## Questions and Answers
+
+❓How do I create new Java Project in Eclipse?
+
+✔️ Right-click Explore New > New > Java Project > Enter Name > [Finish]
+
+❓How do I create new package?
+
+✔️
+
+❓How do I create a new Java class?
+
+✔️
+
+❓How do I run Java class?
+
+✔️There is more than one way to run a class. 
+1. One way is to click the green play button on the toolbar.
+2. Another way is to right click and click "run as."
+3. There even is a run tab on the menu bar!
+
 * [HelloWorld.java](../src/../davidci/src/com/huaxia/davidci/HelloWorld.java)
 
 ```mermaid
