@@ -2,6 +2,10 @@
 
 [](myIcons.md)
 
+❓How do I check my code change to GitHub?
+
+✔️Click **Soure Control** icon on the left toolbar > enter message in message filed > click the check mark > then click "..." > pull > push.
+
 ## Turn in homework
 click Source Control > enter message > click the check mark >
 ## Syntax Error due to run python code in playground
