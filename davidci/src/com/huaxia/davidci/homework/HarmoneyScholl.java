@@ -1,4 +1,4 @@
-package com.huaxia.john.homework;
+package com.huaxia.davidci.homework;
 
 public class HarmoneyScholl {
 
