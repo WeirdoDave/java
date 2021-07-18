@@ -4,3 +4,8 @@
 git config user.name "jwang1122"
 git config user.email "jwang1122@gmail.com"
 ```
+
+## git commands
+```DOS
+git log --oneline
+```
