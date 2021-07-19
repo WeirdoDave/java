@@ -21,6 +21,38 @@ public class HarmoneyScholl {
 		int i = g / h;
 		
 		System.out.printf("problem 04: %d / %d = %d\n",g, h, i);
+		
+		int j = 14;
+		int k = 50;
+		int l = j * k;
+		
+		System.out.printf("Problem 05: %d * %d = %d\n",j, k, l);
+		
+		int m = 66;
+		int n = 4;
+		int o = m / n;
+		
+		System.out.printf("Problem 06: %d / %d = %d\n",m, n , o);
+		
+		int p = 14;
+		int q = 3;
+		int r = p * q;
+		
+		System.out.printf("Problem 07: %d * %d = %d\n",p, q, r);
+		
+		int s = 8;
+		int t = 11;
+		int u = s * t + s;
+		
+		System.out.printf("Problem 08: %d * %d + %d = %d\n",s, t, s, u);
+		
+		int v = 53;
+		int w = 12;
+		int x = 28;
+		int y = 7;
+		int z = v + w + x + y;
+		
+		System.out.printf("Problem 06: %d + %d + %d + %d = %d\n",v, w, x, y, z);
 	}
 
 }
