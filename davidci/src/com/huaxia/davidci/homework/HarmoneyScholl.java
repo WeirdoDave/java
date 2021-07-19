@@ -46,13 +46,30 @@ public class HarmoneyScholl {
 		
 		System.out.printf("Problem 08: %d * %d + %d = %d\n",s, t, s, u);
 		
-		int v = 53;
-		int w = 12;
-		int x = 28;
-		int y = 7;
-		int z = v + w + x + y;
+		short v = 53;
+		short w = 12;
+		short x = 28;
+		short y = 7;
+		short z = (short) (v + w + x + y);
 		
 		System.out.printf("Problem 06: %d + %d + %d + %d = %d\n",v, w, x, y, z);
+		
+		//There are different ways to do it
+		
+		int ab = 200;
+		int ba = 400;
+		int bc = 800;
+		int cb = 600;
+		int cd = ab + ba + bc + cb;
+		
+		System.out.println(cd);
+		
+		float gh = 5;
+		float hg = 7;
+		float fg = gh / hg;
+		
+		System.out.println(fg);
+		
 	}
 
 }
