@@ -37,3 +37,4 @@ Right-Click in Editor window ⟹ Command Palettes ⟹ Configure User Snippets �
 * create markdown code block shortcut
 Right-Click in Editor window ⟹ Command Palettes ⟹ Configure User Snippets ⟹ markdown.json
 
+
