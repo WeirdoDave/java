@@ -94,7 +94,12 @@ A --provides--> B & C & D & E
 
 1. document my code
 ## Data Type
+
 [](../davidci/src/com/huaxia/davidci/DataType.java)
+* 2 based number(binary number)
+$$ myByte = 1\cdot2^5+1\cdot2^4+4+0*2^3+0*2^21\cdot2^1+1\cdot2^0 $$= 32+ 16 + 2 +1 
+* 10 based number(decimal number)
+$$ 602 = 6\cdot10^2 + 02\cdot10^0$$
 ## Operator
 
 ## Execution Control

@@ -68,7 +68,7 @@ public class HarmoneyScholl {
 		float hg = 7;
 		float fg = gh / hg;
 		
-		System.out.println("Problem:"fg);
+		System.out.println(fg);
 		
 	}
 
