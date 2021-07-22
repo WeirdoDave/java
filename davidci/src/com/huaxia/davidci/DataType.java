@@ -20,6 +20,10 @@ public class DataType {
 		l = i; //put smaller value to large container
 		System.out.println("l - " + l);
 		
+		// Java define data type
+		String s1 = "John";
+		
+		
 	}
 
 }
