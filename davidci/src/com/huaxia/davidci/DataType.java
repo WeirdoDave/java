@@ -22,8 +22,22 @@ public class DataType {
 		
 		// Java define data type
 		String s1 = "John";
+		String s2 = "Wang is a teacher";
+		System.out.println(s1);
+		String s3 = new String("John");
+		System.out.println(s3);
+		//Java defined data has a lot of functions available
+		System.out.println(s2.charAt(5)); //index start from 0
+		System.out.println(s2.length());
+		System.out.println(s2.substring(5, 7));
 		
-		
-	}
+		//Developer defined data type, every user defined class is user defined data type
+		HelloWorld h = new HelloWorld("David");
+		System.out.println(h);
+		h = new HelloWorld("John");
+		System.out.println(h);
+		Print p = new Print();
+		System.out.println(p); // com.huaxia.davidci.Print@1246ca6 this is result is from default toString() method.
+		}
 
 }
