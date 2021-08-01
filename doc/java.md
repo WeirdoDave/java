@@ -143,6 +143,100 @@ class A start
 class E end1
 class D,B if 
 ```
+* Break on for loop
+```mermaid
+graph TB
+
+A([Loop])
+B{loop<br>condition<br>i<=10}
+C[code block 1<br>line-51]
+D{break<br>condition<br>line-52}
+F[code block 2<br>line-55]
+E[END<br>line-57]
+
+A-->B
+B--false-->E
+B--true-->C-->D
+D--true-->E
+D--false-->F-->B
+
+classDef if fill:#EBCD6F,stroke:black,stroke-width:2px;
+classDef start fill:green,stroke:#DE9E1F,stroke-width:2px,color:white;
+classDef end1 fill:red,stroke:#DE9E1F,stroke-width:2px,color:white;
+
+class B,D if
+class E end1
+class A start
+```
+## Execution Control
+
+```mermaid
+graph TB
+A((start))
+B{if <condition>:}
+C[if code block]
+D[else code block]
+E[end]
+
+
+A-->B
+B--True-->C-->E
+B--False-->D-->E
+
+A1((start))
+B1{if <condition>:<br>line-22}
+B2{elif <condition>:<br>line-24}
+C1[if code block<br>line-23]
+D1[eles if code block<br>line-25]
+E1[end]
+F1[else code block<br>line-27]
+
+A1-->B1
+B1--True-->C1-->E1
+B1--False-->B2--True-->D1-->E1
+B2--False-->F1-->E1
+
+
+classDef html fill:#F46624,stroke:#F46624,stroke-width:4px,color:white;
+classDef js fill:yellow,stroke:#DE9E1F,stroke-width:2px;
+classDef start fill:green,stroke:#DE9E1F,stroke-width:2px;
+classDef end1 fill:red,stroke:#DE9E1F,stroke-width:2px;
+class A,A1 start
+class B,B1,B2 html
+class E,E1 end1
+```
 ## Array
 
+❓What is a array in Java?
+
+✔️An array in Java is a set of varibles referenced by
+using a single varible name combined with an index number
+
+[Array.java](../davidci/src/com/huaxia/davidci/Array.java)
 ## ArrayList
+❓What is ArrayList in java?
+
+✔️
+1. create ArrayList
+2. add item in ArrayList
+3. remove item from ArrayList
+4. sort ArrayList
+
+[](../src/com/huaxia/davidci/../../../../davidci/bin/com/huaxia/davidci/ArrayList.class)
+
+## Simple Math
+
+[add(), circleMath()](../davidci/src/huaxia/../com/huaxia/davidci/SimpleMath.java)
+
+## Try-Catch Block
+❓What is try-catch block?
+✔️Try-catch block is a java code black to catch exception when something unexpected happens.
+
+❓Why do I need try-catch
+✔️It is possible something wrong happens, you need to catch it to avoid the application blowing up.
+
+1. When r<0 we need to throw Exception. (throw expetion under condition, and then we throw it in mathod defintion)
+2. to handle Excpetion for a method, we can 1: rethrow it 2: Try-catch it
+
+
+[](../src/../davidci/src/com/huaxia/davidci/TryCatch.java)
