@@ -221,6 +221,16 @@ using a single varible name combined with an index number
 2. add item in ArrayList
 3. remove item from ArrayList
 4. sort ArrayList
+```mermaid
+A[Java Program]
+B[class]
+C[Method]
+D[Class Method]
+E[CLass atribute]
+
+A--include--> B & C
+B--include--> D & E
+````
 
 [](../src/com/huaxia/davidci/../../../../davidci/bin/com/huaxia/davidci/ArrayList.class)
 
@@ -240,3 +250,46 @@ using a single varible name combined with an index number
 
 
 [](../src/../davidci/src/com/huaxia/davidci/TryCatch.java)
+
+## class
+### class basic
+❓What is Java Class?
+✔️A java classi s the blueprint from which individual objects are created. It is a Java code block which define attributes, methods, and constructors that can be used in creating instnce of the class.
+
+*[](../davidci/src/com/huaxia/davidci/SimpleClass1.java)
+1. create instance of SimpleClass1 by default constructor
+2. print out the instance vby defualt toString() method
+3. and other method such as equal()
+
+❓What is object class
+✔️
+
+❓what does object class provide us?
+✔️
+
+* [Override toString() method, but connot diffentiate differnt objects](../davidci/src/com/huaxia/davidci/SimpleClass2.java)
+
+*[Contructor,field, override toString](../davidci/src/com/huaxia/davidci/SimpleClass3.java)
+
+### constructor
+❓What is constructor?
+✔️
+
+❓What can constructor do?
+✔️
+
+[Setter/Getter](../davidci/src/com/huaxia/davidci/SimpleClass3.java)
+
+1. constustor look like method without return type.
+2. it uses class name as method name
+3. constructor can have arguments
+4. it is used to create instance of the class
+5. we can use public, prvitate, defualt(no modifier) modifier 
+6. public modifier make the construstor available on all packages
+7.no modifier make the constructor availble only in same package
+8. private odifier make the constructor only in the same class
+9. one develpoer fine own constuctor, the defualt constuctor will no long work!
+
+##interface
+
+what is interface?

@@ -9,6 +9,7 @@ public class Print {
 		System.out.printf("rectangle area with width=%d and length=%d is %d.\n", width, length, area);
 		int a_1b = 5; //_ can be used in the variable name
 		//how do I find other placeholder?
+		System.out.println(a_1b);
 		
 	}
 

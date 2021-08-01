@@ -24,9 +24,10 @@ public class SimpleMath {
 		System.out.println(z);
 		z = sm.circleArea(-2);
 		System.out.println(z);
-	}catch(Exception e) {
+		}catch(Exception e) {
 			System.out.println(e.getMessage());
-	}
+			e.printStackTrace();
+		}
 		System.out.println("Done.");
 	}
 
