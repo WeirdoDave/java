@@ -9,7 +9,7 @@ public class Test {
 		SimpleClass3 sc2 = new SimpleClass3("John");
 		System.out.println(sc2);
 		System.out.println(sc2.getClass().getName());
-		
+				
 		
 	}
 

@@ -1,5 +1,20 @@
 <h1>Java Class Notebook</h1>
-
+- [Getting Started](#getting-started)
+- [Questions and Answers](#questions-and-answers)
+- [Print](#print)
+- [Variable Naming](#variable-naming)
+- [Comment](#comment)
+- [Data Type](#data-type)
+- [Operator](#operator)
+- [Loop](#loop)
+- [Execution Control](#execution-control)
+- [Array](#array)
+- [ArrayList](#arraylist)
+- [Simple Math](#simple-math)
+- [Try-Catch Block](#try-catch-block)
+- [class](#class)
+  - [class basic](#class-basic)
+  - [constructor](#constructor)
 ## Getting Started
 
 [Java API document] (https://docs.oracle.com/javase/8/docs/api/)
@@ -290,6 +305,37 @@ B--include--> D & E
 8. private odifier make the constructor only in the same class
 9. one develpoer fine own constuctor, the defualt constuctor will no long work!
 
-##interface
+##Interface
 
-what is interface?
+❓What is interface?
+✔️ An interface is declaration colloction of methods without implenmentations and constant fields.
+
+❓How do I create interface in Eclipse?
+✔️Right-click package name > New > Interface
+
+❓What is abstract method?
+✔️only declare method signture without implementations.
+
+[Occupation.java](../src/../davidci/src/com/huaxia/davidci/Occupation.java)
+
+1. cannot instantiate an interface object.
+2. create concrete class which implements the interface
+    -[Test.java](../src/../davidci/src/com/huaxia/test/Test.java)
+    -[Teacher.java](../src/../davidci/src/com/huaxia/davidci/Teacher.java)
+3. can define constant fields
+4. can use **instasnceof** to test object type
+5. can also use getClass().getName to get object type for name
+
+❓What is a concrete class?
+✔️Is a class that has all abstract methods implemented
+1 if you defined your own constructor without using super() keyword, you will need to define your own default constructor.
+2. subclass inherits all features from superclass  but constructor
+
+❓What is an abstract class?
+✔️we use **abstract** keyword tto define an abstract class. abstract class allow abstact mothd defined in it.
+1. cannot insantiate an abstract class.
+2. can define its own abstract method by **abstract** keyword.
+3. can define methods with implementations.
+4. can define protected feidls which can be used directly 
+
+[Test](../davidci/src/com/huaxia/test/Test.java)
